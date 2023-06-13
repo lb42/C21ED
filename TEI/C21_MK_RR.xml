@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>C21 Editions: Roberto Rosselli</title>
+                <title type="sub">Interview conducted by Michael Kurzmeier on March 21th,
+                    2022</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished working draft</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> O'Sullivan, J., M. Pidd, M. Kurzmeier, O. Murphy, and B. Wessels. (2023).
+                        <title>Interviews about the future of scholarly digital editions [Data
+                        files].</title> Available from <ref
+                        target="https://www.dhi.ac.uk/data/c21editions"
+                        >https://www.dhi.ac.uk/data/c21editions</ref> (File C21_MK_RR.xml
+                    downloaded: 8th June 2023).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Retagged in TEI P5 from RTF (via soffice and docxtotei) </p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>$today</date>Header added</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <head>Interviewee bio</head>
+                <p>ROBERTO ROSSELLI is Associate Professor in the Department of Humanities, School
+                    of Humanities, University of Turin, Italy.</p>
+            </div>
+        </front>
+        <body>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Just to get started with the conversation, could you maybe say a few words about
+                    what the terms digital scholarly editing and digital publishing mean to you?</p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> They mean a lot to me, in fact I started being interested in digital scholarly
+                    editing when I first saw the Electronic Beowulf edition by Kevin Kiernan which
+                    was published in 1999. Because of that, I got interested in digital scholarly
+                    editing and started investigating about creating a similar digital edition of a
+                    very important manuscript, which is known as the Vercelli Book. So, it was a
+                    long journey learning about semantic annotation and, after making good progress
+                    with the TEI encoding of the files to be used in my digital edition, I
+                    discovered that the tools available at the time, I’m talking about 2007 or so,
+                    were not so suitable to achieve the goals I had stated. Therefore, I also had to
+                    include digital publishing among the new methods to learn and I created my own
+                    tool to display digital editions, EVT.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> And you have also written extensively about digital editions and there is an
+                    essay from 2016, The Battle We Forgot to Fight: Should We Make a Case for
+                    Digital Editions? And in that essay, you write; We are at a crucial moment in
+                    the evolution of digital scholarly editing: if we wanted to succeed, to be
+                    accepted by our own colleagues, we should continue to discuss and improve its
+                    fundamental methodologies, not only amongst us ‘pioneers’, but also with the
+                    numerous scholars who may be interested in adopting such methods, and I have
+                    thus far refrained from doing so because of the many hurdles they assume they
+                    have to overcome. I wonder if you might reflect on this matter a little bit and
+                    especially how you feel things have changed since that crucial moment in 2016 as
+                    you described?</p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> I think that things have changed a lot, but I’m not entirely happy with the
+                    current scenario. Let me explain myself better: I think that now we have many
+                    more tools, we have a standard methodology to create digital editions and there
+                    are many, many digital editions being published every year. But I don’t think
+                    everything is all well and good because I think that there are still many
+                    problems unsolved. My point of view, as I tried to make before in my very short
+                    introduction, is that of the lone scholar, because when I started working on the
+                    Digital Vercelli Book I had no substantial financial means to take it to an end,
+                    and the situation has remained the same for most early career researchers today.
+                    I always try, even if now I have more research money, to think as a PhD student,
+                    for instance, or as a person who’s right now starting to delve into digital
+                    matters. And I can see that there has been very interesting progress on the
+                    technological front. There are several new research methods, such as linked open
+                    data, ontologies, processing of the edition data, which will enable new insights
+                    about the texts being edited. But things have become also more complicated for
+                    the lone scholar, because it is really difficult to master all these
+                    technologies. I can see that there are a good number of colleagues of mine who
+                    might be interested in joining the ‘digital revolution’, but they really are
+                    afraid of doing so because they always ask me, ‘how long is it going to take to
+                    learn doing this or that?’ And of course, if about 15 years ago learning
+                    semantic annotation was almost all you had to do, now things are much more
+                    complicated, and it really depends on what you want to do with your edition. In
+                    a way, you have much more power now to decide how to shape your DSE, you can
+                    pursue many new research directions, but it also is very much complicated for
+                    someone who is starting right now. Also, I don’t know if you have heard about
+                    the Digital Scholarly Editions Manifesto which has been launched recently at the
+                    German DH conference: I think that, while being a very worthwhile initiative, it
+                    also is sort of a symptom that the battle still has to be fought, because one of
+                    its goals is to reaffirm that digital editions are important. And they are
+                    important as a means to know more about the texts you’re publishing, because
+                    they are better as a research tool than a printed the traditional edition, etc.,
+                    basic facts that we know well. But if you have to repeat that, it also means
+                    that not everybody accepts it as a fact. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> I was wondering, do you think because there are so many tools available, would
+                    that lead to a situation where projects are more and more alike because people
+                    get to pick and choose tools more so than they have to develop them
+                    themselves?</p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Yeah, that’s a good question. In theory, yes, but I also regard as valid the
+                    distinction made by Elena Pierazzo between the prêt-à-porter edition and the
+                    haute-couture one, where the haute-couture is a software tool or a sophisticated
+                    web site which has been specifically created and/or customized for a digital
+                    edition project. At the present moment I see that there may be people resorting
+                    to standard tools, but also there are many projects which are going to go the
+                    other way because they feel that only by means of a customized design or use of
+                    specific research tools the goals of that edition project can be eventually
+                    achieved. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you. You have already mentioned the Digital Vercelli Book and could you
+                    say a little bit about that project? </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Yes, well, that was my first digital project, and it isn’t finished yet, alas. I
+                    think that also may tell something about the liquid state of many digital
+                    editions, if you want. It isn’t finished because while I worked on the project,
+                    I started another project about the software tool I mentioned to be used with
+                    the Digital Vercelli Book, and then this led to many collaborations with
+                    different projects which wanted to customise this tool for their own purposes.
+                    So, it has been a bit distracting, the project is in good shape, I mean that I
+                    have all the text files ready and the images, everything, I’m just waiting for
+                    the final version of the EVT to publish the project. This is an important
+                    manuscript because there are only four manuscripts which hold about 90% of all
+                    the Old English period poetry and this is the only one which is preserved
+                    outside pre-printing. So, it is a particularly interesting case in itself. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you and maybe going from there to the other editions that you have worked
+                    on, I would like to know was there any key decisions relating to the data format
+                    analysis, modelling or publishing that were taken during those projects? What
+                    were the key decisions on those fields? </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Almost all the key decisions were TEI related, as you can imagine, and TEI is a
+                    great tool and it is a really rich data format for text encoding, although it
+                    has its limits. One of the projects we collaborated with is the Codice
+                    Pelavicino Digitale (http://pelavicino.labcd.unipi.it/) where they used the TEI
+                    markup in a different way. Even if it was a diplomatic transcription of a
+                    medieval manuscript, they did things completely different compared to the
+                    Digital Vercelli Book, which meant that we had to adapt the software to display
+                    the text sometimes in a completely different way. For instance, you can have a
+                    &lt;front&gt; element in the TEI data structure which is usually used to host an
+                    introduction to the edited text. When working with historical documents, on the
+                    other hand, that element contains a regesto, i.e. a summary of the document
+                    content, and since it is really formalised, we had to analyse a completely
+                    different structure to be able to parse the XML content and to produce a
+                    corresponding output that is readable and understandable for the historians. I
+                    could not say this is really unusual, in fact when you work with TEI you might
+                    produce different markup for many different purposes, which is the case with
+                    Codice Pelavicino Digitale. Another interesting case is that of a project named
+                    VaSto (https://dharc-org.github.io/progetto-vasto/), this is an edition where
+                    people customized EVT by expanding the CSS rules in the style sheets so that
+                    they might add marginalia and other features to their edition of the manuscript
+                    text. I think that there is a great potential in encoded texts, and that the
+                    tools have to be adapted to be more receptive to this richness. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you and then building on tools, could you tell me something about the EVT,
+                    the Edition Visualisation Technology, that was developed as part of the Vercelli
+                    project and especially why did you feel the need to develop such a tool? </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> As I hinted before, it was because I did a survey of the available tools about
+                    2007-08, about that time some of these tools were difficult to use and/or
+                    proprietary software, in fact I have been offered a software which had been used
+                    for another edition and it was an interesting software, but I wasn’t allowed to
+                    modify and redistribute it, for instance, which is why I turned it down. I also
+                    tested the TEI style sheets which were very simple to use but quite limited,
+                    f.i. you could not have text and image alignment which is essential for a
+                    digital facsimile with an accompanying transcription. And I also tried eXist-db,
+                    at the time there was no ready to use graphical front end. To make a long story
+                    short, it was really a problem to find a tool which could offer what I needed in
+                    a relatively simple way. Again, at the time I was the lone scholar, with limited
+                    resources, besides it was also important to have an open-source tool so that I
+                    could modify it and possibly share my changes with other people. So, when I
+                    decided to try and start such a project, the tool was designed to be flexible,
+                    free and open source right from the start. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you and then staying with the topic of tools for a moment, you also
+                    published a paper on using 3D content in digital editions and I would really
+                    like to hear your thoughts on this if you could speak a bit more about this
+                    work. </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Okay that’s interesting because I was looking at that just a couple of days ago.
+                    It’s been an exciting experiment, and I want to have this sort of functionality
+                    in EVT, but it is not as simple as for other normal edition components. Let me
+                    explain, we are considering, for instance, to implement the concept of the
+                    distributed edition, meaning that part of the content, be it text or images or
+                    other material, could be served somewhere on the internet, and we only had to
+                    retrieve it so that it can be ‘injected’ into the viewer and displayed. We are
+                    considering using for instance Zenodo for some of that work, also because Zenodo
+                    offers permanent IDs, which is quite an important feature, and we are also
+                    considering how to improve support for the IIIF functionality in EVT. We
+                    experimented with 3D because we added a 3DHOP view to EVT. 3DHOP is an excellent
+                    3D model viewer, the problem there is that you cannot rely on distributed
+                    models, for instance you cannot serve a 3D model from Zenodo because it would be
+                    really slow, it wouldn’t be suitable. This means that you have to keep
+                    everything 3D on the server, but also this means that you have to carefully
+                    decide the level of compromise between level of detail and downloading time,
+                    because a 3D model is really heavy in terms of space and also of time to
+                    download. So even if 3DHOP is such a great tool and even if this first
+                    experiment was mainly successful, we are waiting for some breakthrough either in
+                    Zenodo or in other technologies to share 3D models and load them into EVT. But
+                    it works, I can assure you, and we are looking forward to implementing it in EVT
+                    3. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Great. Thank you. And do you think that the present digital editions are
+                    sufficiently multimodal then or do you think that all editions could benefit
+                    from something like a 3D content?</p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> No, not every edition of course. Two things, one is that the 3D model would be
+                    needed in the Digital Vercelli Book in connection to a specific poem, The Dream
+                    of the Rood, which is also preserved on a monumental stone Cross. The goal is to
+                    compare the original documents, be they something as traditional as a manuscript
+                    and something that you need 3D viewer to browse. Also, The Dream of the Rood
+                    version on the Ruthwell Cross is preserved in runic characters, so that also
+                    calls for special attention. But this is a really special case, you might be
+                    more interested in considering a manuscript parchment as a 3D object that is a
+                    completely different research, it also is a very interesting one, but it is not
+                    something I’m looking into right now. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> I also wanted to talk about a tutorial that you wrote on designing a graphic
+                    user interface for digital editions and I would like to hear what you feel the
+                    key points are that one must consider when designing a user interface for
+                    digital edition. </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Well, first of all you have to consider that what you are going to publish will
+                    also be the point to first impact for any kind of audience. So, what we always
+                    tried to do is to keep EVT as simple as possible, which doesn’t mean that it
+                    can’t be powerful, it means that you have to design the user interface in such a
+                    way that it is easy to access the more powerful functionality. At the same time,
+                    you don’t want it to be intimidating, you're not going to see lots of buttons,
+                    f.i. with single characters on them to recall specific functionalities, because
+                    that is also something that requires you to learn a lot while browsing the
+                    edition; this is not the best way to design a user interface. And during the
+                    years we have now three versions of the EVT software, we are working on the
+                    third one. We always kept the usual display layout, dividing the space on a
+                    computer screen in two parts, one part for the main object and a second part for
+                    accompanying material, such as the apparatus frame or the transcription text, if
+                    you’re looking at digital facsimile, and so on. Really simple and we have been
+                    adding a stuff but without overloading the interface… or so I hope. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you. And then building on that, I’d like to see, do you feel there is a
+                    tension between digital scholarly editing and the print model, especially when
+                    it comes to the format and the presentation. Do you think digital scholarly
+                    editions are maybe too closely oriented on the print model or has that changed?
+                </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Well, they’re trying to get free. And I would go back to what I was saying that
+                    they are trying to spread their roots on the internet, for instance adopting the
+                    distributed edition model, so that the digital print paradigm doesn’t apply
+                    anymore. The problem is that even if we have infinite space in storing an
+                    edition data, we have exactly the same kind of surface that you use in the
+                    printed edition, which means we have a 2D environment where space really is
+                    precious, so you have to think carefully about how to use it. And this also
+                    means that it is inevitable that in some way there will always be something of a
+                    printed edition in a digital one. I don’t think this is an easily solved
+                    problem, even if you would think of 3D interfaces which have been attempted in
+                    the past but have been discontinued because they were more hassle than useful, I
+                    think. Also, another concept that I think it would be interesting to have is
+                    digital editions and printed editions coexisting peacefully, because I don’t
+                    think that DSEs are going to get better than printed editions in a very
+                    important aspect which is that of portability, unless you consider perhaps
+                    mobile devices. But even there, the fact that I can pick up a book and take it
+                    with me everywhere and even if there is no charge or no electricity or no
+                    internet, that is really unbeatable. And the fact that I wouldn’t advise anyone
+                    about reading texts on a computer screen for a long time because just it is not
+                    healthy. I think that a digital edition is first of all a research tool and
+                    under that aspect it is a better tool than a printed edition. But printed
+                    editions have their advantages as well, so I don’t think that that is going to
+                    change. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> And to stay with that point, are there particular design methodologies that you
+                    feel are particularly suited to digital editions? You mentioned a few in terms
+                    of portability and maybe accessibility for the print editions. Is there
+                    something that you see that a digital edition does particularly well too? </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Well, the thing that a digital edition does really better than a printed edition
+                    is data processing, because with the printed edition you (the reader) do all the
+                    processing, but with a digital edition you can have the viewing tool doing also
+                    stuff for you. For instance, producing concordances or doing analysis or
+                    producing lists of named entities, or sophisticated data queries, we are looking
+                    into that for the next EVT version, and I think that’s a promising research area
+                    because there is so much that you can do with TEI files. When I started encoding
+                    the Vercelli Book text, I used the TEI method based on elements from the gaiji
+                    module to encode special characters: at the time I wasn’t sure if it was going
+                    to be needed for the project, but I knew that it might be useful for people
+                    doing palaeography research. Now we are developing a library which is going to
+                    make calculations and build statistics to see how special characters are used in
+                    different quires of the manuscript, to see if something is a specific scribal
+                    habit or maybe it is due to the copy which is being transcribed by the scribe,
+                    so that you can do palaeography research even under that aspect. This is just an
+                    example of what you can do with TEI markup. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you. And then looking at the wider field of digital publishing, is there
+                    something that you feel the field is missing? Is there a development that you
+                    think you would like to see in the field of digital publishing and editions?
+                </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Well, I’m not really in the position to discuss about digital publishing at
+                    large. What I miss would be for a way for digital editions to talk to each
+                    other. I know there are some specific protocols, such as Canonical Text Services
+                    and others, but in the end, one particular aspect of printed editions which is
+                    still valid for their digital counterparts, which I don’t like very much, is the
+                    fact that even the best digital editions are often islands in the great Internet
+                    sea. So, it would be useful to have a sort of middle layer, something like Mesa,
+                    which it is a framework accepting digital resources and then allowing for a
+                    distributed search within those resources. That is something that I would like
+                    to have. And also, at the present moment we have two competing standards, CTS
+                    and DTS, I would like to have just one good standard that I could use to make
+                    the textual data of my edition easily available. That is another aspect which
+                    is, I think, a really a nice development, the fact that you can share
+                    immediately all the work you’ve done and it would be nice to transform all the
+                    edition components in linked open data so that other people can access and use
+                    them freely. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you very much. And then lastly, is there something that you feel we have
+                    not mentioned that needs to be mentioned in the context of this interview? So,
+                    anything else that you’d like to add before we stop the recording? </p>
+            </sp>
+            <sp who="#RR">
+                <speaker>RR</speaker>
+                <p> Well, something that I would like to mention is the problem of text
+                    representation: as I said the TEI is a great tool, but it relies, as we know, on
+                    XML and so you have the technical baggage of XML, meaning that you cannot have
+                    overlapping hierarchies without resorting to some ‘workarounds’, for instance,
+                    which is perhaps the main problem of TEI. It is not an unsurmountable problem, I
+                    think, because I’m doing that, but it will be interesting to have in the future
+                    at some point a text representation tool, which is designed by and for
+                    Humanists, and not as an abstract text containing structure, which is really
+                    easily processable by software. At the present moment, however, I cannot but
+                    conclude that TEI is the base and sort of a de facto standard for the job. While
+                    that is my conclusion, I would love to see something better emerge. </p>
+            </sp>
+        </body>
+    </text>
+</TEI>

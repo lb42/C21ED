@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>C21 Editions: Claire Connolly and James Smith</title>
+                <title type="sub">Interview conducted by Michael Kurzmeier on March 8th,
+                    2022</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished working draft</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> O'Sullivan, J., M. Pidd, M. Kurzmeier, O. Murphy, and B. Wessels. (2023).
+                        <title>Interviews about the future of scholarly digital editions [Data
+                        files].</title> Available from <ref
+                        target="https://www.dhi.ac.uk/data/c21editions"
+                        >https://www.dhi.ac.uk/data/c21editions</ref> (File C21_MK_CC_JS.xml
+                    downloaded: 8th June 2023).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Retagged in TEI P5 from RTF (via soffice and docxtotei) </p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>$today</date>Header added</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <head>Interviewee bio</head>
+                <p><list>
+                        <item>CLAIRE CONNOLLY is Professor of Modern English at University College
+                            Cork.</item>
+                        <item>JAMES SMITH is a Postdoctoral Research fellow on the Ports, Past and
+                            Present project at UCC.</item>
+                    </list></p>
+            </div>
+        </front>
+        <body>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> To start, I have an open-ended question here. So, what do the terms scholarly
+                    edition and scholarly editing mean to you? </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> I understand a scholarly edition to be one where the kind of highest standards
+                    of bibliographical processes and textual editing have been followed. I have done
+                    scholarly editing and would, on my CV, I would make a distinction between
+                    scholarly textual editions and popular editions.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I agree with that but I would just add that I would expect an apparatus with a
+                    scholarly edition and in scholarly editing, I would expect quite a lot of
+                    footnotes to be like the sort of metatext of the scholarly edition as well as it
+                    being that very high definitive standard. But other than that, I agree with what
+                    Claire said. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you. And do you see anything that digital scholarly editions do
+                    differently than print scholarly editions?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> I suppose access is one thing, and maybe a certain depth of intertextual
+                    stability in terms of references, where one could open up the text in richer
+                    ways through links and so on.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I guess as well as that a digital scholarly edition can be interoperable and can
+                    be sort of be context neutral so it can be marked up in an interoperable format
+                    like an XML or TEI, or whatever it may be and linked open data and it can be
+                    reused to different purposes and presented the front-end can be many different
+                    things, but the core data might be archived and reusable in a lot of different
+                    contexts but it would still have those same burdens of quality and a certain
+                    amount of interpretation and apparatus but expressed in different ways,
+                    flexibly, creatively perhaps.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Next I would like to talk a little bit about the Ports Past and Present project,
+                    would you like to tell me something about it, just as an introduction?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> Do you want to take that, James?</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> Do you maybe want to start in general and then I can go into the specifics of
+                    it. </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> It’s an applied cultural heritage Project funded by the European Development
+                    Fund via the Ireland Wales programme and the idea is to see what sort of social
+                    and economic benefits can be drawn from deeper engagement with natural and
+                    cultural heritage, particularly in relation to tourism. It looks at the five
+                    ports in the Irish Sea Basin and connections back and forth. At the moment, the
+                    project lives as a series of kind of short cultural heritage stories that James
+                    has curated on an Omeka site, along with an app and some other forms of
+                    associated digital output.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> And I guess in addition to that, I mean out of our six work packages, some are
+                    administrative in nature or dissemination or engagement in nature but there’s
+                    three, like there’s one that’s creative connections which is 12 creatives,
+                    writers, artists, etcetera producing work that’s on the ports and then there’s a
+                    third work package that’s films that was based on quite a lot of research and
+                    interviews etcetera and then there’s our work package which is the work package
+                    four based in UCC which is called ‘Bringing the Past to Life’ and that’s where
+                    the stories come from. But what’s starting to happen now is especially as we
+                    archive, we work towards the end of the project, they’re starting to mix
+                    together and we’re starting to, I guess going back to the previous point about
+                    interoperability, we’re starting to kind of mingle the material together, to
+                    archive it long-term but also to exhibit and to disseminate at the end. So, they
+                    started off as very separate strings but they are kind of all coming together
+                    now. So, I guess that’s partially that we’re going to need a lot of different
+                    ways of different apparatuses to display and to use that material as well, as
+                    well as trying to capture it in interoperable formats in this case on the
+                    Digital Repository of Ireland, of which UCC is a member.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you James. I was just wondering could you maybe say a little bit more
+                    about the challenges of archiving a project of that size or maybe making it
+                    available in a sustainable way?</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> Yeah, I guess there’s a kind of tension between the project, I mean it comes to
+                    the interface thing like I mean if you look at it on an Omeka collection and
+                    also if you look at ours which uses a public history themed front-end theme
+                    called Curatescape, it has a very specific way of showing you the material but
+                    then of course like there’s Dublin Core Metadata behind it where we are working
+                    up and shaping up into ingest spreadsheets to put in, you know, like so we’re
+                    basically having to abstract the information and figure out what form to keep it
+                    in that’s a bit separate from the way it’s been displayed, you know, the
+                    front-end, the CSS, the styling and the maps and all the stuff the way that we
+                    presented it and that’s the same for the Arts, I mean, it’s presented some of
+                    its literally stuck to walls, some of it is sculptures, how can we bring that
+                    all together and archive it in a particular way and how can we talk about it and
+                    write about it for example later on. So I guess that’s the thing is getting it
+                    all in, finding format for it that can be reusable and sustainable in the
+                    future, but we’re also working, for example, to archive like to create a
+                    snapshot a web archive of the website as it appears so that people can get that
+                    user experience and see what it looked like when it was in that format, even if
+                    we’re thinking like 10-15 years, whatever in the future when the website in its
+                    current form might not be there anymore. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Claire, could you maybe say a few things about the project that you’ve worked on
+                    before the Deep Maps Cork Project?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> You mean in terms of archiving and so on? </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Yeah, maybe in terms of its approach and its design. </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> Sure, so that was an interdisciplinary project and, I suppose, a bit of an
+                    experiment in interdisciplinarity. It was funded through a scheme where an Arts
+                    and Humanities PI had to collaborate with a stem co-PI. I worked with Professor
+                    Rob McAllen from the School of Biological Earth and Environmental Sciences. He
+                    is a Marine Biologist and we decided to try and develop — at a relatively small
+                    scale across a relatively defined historical period — a model for thinking about
+                    the coast and coastal heritage, coastal cultures, with the idea that perhaps
+                    earlier cultural representations might precociously bearing witness to
+                    environmental issues in our own time, or the information about the environment
+                    might be gleaned from earlier cultural representations t. It remained pretty
+                    much kind of an experiment. The Ports project is more fully formed, it is funded
+                    for a longer period, has a larger research staff and it’s hosted on a WordPress
+                    site on the UCC website. UCC was not a member of the Digital Repository of
+                    Ireland at the time which was a problem for us. The site is still live and it's
+                    informally looked after by Orla-Peach Power who works in MaREI, UCC’s Marine
+                    Research Centre along with another researcher who worked on it, Dr Rachel
+                    Murphy, now in the University of Limerick. But I wouldn’t describe it as a
+                    successful story in terms of legacy. In fact, it’s on my conscience to think
+                    about it and try to figure out what to do with it.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Great. Thank you. Maybe to tie all this up, do you consider these projects to be
+                    critical editions or do you see any similarities between how these projects
+                    engaged with the underlying data in the way that a critical edition would do?
+                </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> Maybe more so for Ports, for Deep Maps I don’t because I think it was, you know,
+                    an avowed experiment in a form of interdisciplinary thinking so the forms of
+                    inquiry that were pursued were the output, if you like. It was funded over quite
+                    a short scale with a relatively limited budget so I think its legacy is more
+                    methodological and belongs to kind of modes of inquiry that continue if you
+                    like. I don’t in anyway think of it meaningfully as an edition. Ports, I suppose
+                    is more like that, isn’t it? Although truthfully, that’s a bit of a stretch for
+                    me actually to think of it as a scholarly edition. You know you can see some of
+                    these books here behind me, those blue volumes just over my shoulder is the
+                    selected writings of Maria Edgeworth, I edited two volumes of that collected
+                    edition. It was my big post PhD project: I spent a number of years working under
+                    a general editor, agreeing on certain standards, pursuing them, debating them,
+                    and so on. That work was done before there were digital possibilities, but I
+                    could easily imagine that continuing into a digital edition and I find we’re
+                    stretching the term a little bit to go into the Ports project in terms of
+                    scholarly editing as I understand it. </p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I think to add to that I might add the one thing that Deep Maps and Ports, Past
+                    and Present have in common at least is that the way we’ve curated a lot of stuff
+                    is through using Deep Maps and the methodology of Deep Maps and kind of giving
+                    different types of knowledge equal audition and I think that might include
+                    podcasting audio, creative works, the films, material that arose from the
+                    project, people’s personal stories, we’re kind of doing that re-collage Deep
+                    Mapping thing there and I think something that all Deep Maps have in common is
+                    that they’re almost antithetical to the idea of being finished so a critical
+                    edition has to even if it’s not finished it has to pretend to be finished or be
+                    a snapshot in time of something even if it evolves or grows as it moves along
+                    it’s trying to present sort of a moment even if the moment is changing whereas I
+                    think a Deep Map is never really a moment because every single person that looks
+                    at it deliberately gets something different out of it because you can never have
+                    a uniform interaction with a Deep Map because you’re always going to look at a
+                    different set of material when you go through it, at least in its kind of
+                    original, imagined form. But it can, I think be extracted into things that you
+                    could consider to be an edition like glossed and put into formats but I think
+                    there’s a distinction between the Deep Map as a kind of wellspring of different
+                    types of material all bumping up against each other and the sort of outputs of
+                    the Deep Map which I think in certain situations could conceivably be a critical
+                    edition or be considered to be critical in some way, or an edition in some way.
+                </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> And I would just add to that in so far as Ports has a commitment to the kind of
+                    co-production of knowledge with our community stakeholders from whom we often
+                    receive heritage stories. Those go through a certain process: James holds the
+                    writers to certain editorial standards and we’re comfortable that they’re
+                    factually correct, grammatically correct and so on. But I think that pulls
+                    against the kind of notions of authority inherent in a scholarly edition, the
+                    sharing of the authority about the knowledge about the ports with the community,
+                    that to me would feel quite different from what you do where you take an agreed
+                    set of scholarly conventions and apply them to new materials. So I think for
+                    example, the last edition that I looked at with any kind of critical eye was the
+                    new or the ongoing edition of the letters of Thomas Carlyle Lwhich are coming
+                    out in a hard copy and online kind of more or less simultaneously. You get some
+                    interoperability with the digital edition but otherwise it’s more or less the
+                    same thing: you can hold a big volume in your hand or you can avail of increased
+                    search capacities, online. So for me that’s too much of a stretch from there to
+                    what we’re doing with Ports. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Oh, absolutely. And we don’t need to, we don’t need to force that comparison.
+                    But what I’d like to know is with either project are there things that you would
+                    have liked to have done that weren’t possible because of resource or technical
+                    constraints? </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> So much. James will know this already and you and James will be encountering
+                    this as you move through 21st century editions, but our research infrastructure
+                    in UCC is just simply not fit for purpose in terms of realising the ambitions of
+                    a large-scale digital project. It’s felt like battling all the way. I feel we’re
+                    insufficiently funded. </p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I guess that add to that of course Covid just made everything completely
+                    different to what we would have imagined we’re doing stuff like literally now
+                    that really I would have preferred to be in doing in the middle of 2020. So, in
+                    some ways I feel like in the way we’d imagined it, we could have done all the
+                    things we potentially wanted to do. I mean, there’s always something, I mean
+                    that that’s an imaginary count of actual life I find had to grasp, to be honest,
+                    but we could have done a lot more of certain types of things, but we’ve also
+                    done, you know, we’ve had to pivot and everyone has had to pivot and we found
+                    other things entirely that we wouldn’t have otherwise done and I think it’s
+                    given me more time to focus on thinking about legacy and digital sustainability,
+                    data management and I think we’re a heck of a lot better prepared that then we
+                    would have otherwise been.</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> That’s interesting. </p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> But I guess it means we’re now on this… we’ve got a new colleague, Dr Claire
+                    Nolan, who’s really game to gather material and has got a sort of enthusiasm for
+                    like interviewing people so I think we’re going to catch up a lot of things I
+                    would have liked to have been doing last year and in 2020. But I think in other
+                    ways we’ve kind of especially the Project Manager Aoife Dowling and myself and
+                    others, we really had a chance to think through some things we had to think
+                    through because they were kind of proving to be our main legacy. So of course,
+                    when the project is living online a lot more than we thought it would have
+                    otherwise done then the digital legacy of the project suddenly becomes massively
+                    more important in making sure that it survives. So, I think it’s hard to
+                    untangle how things would have turned out without Covid but I think we’ve gone
+                    off in a slightly different direction in some things and I think that might
+                    prove to be… we might get a bit of both in the end, like when all is said and
+                    done. </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> Yeah, it’s an obvious thing to say but I would have liked more primary research,
+                    more time in the archive with time to develop new accounts of and the past.
+                    We’ve done a bit of that but it hasn’t been possible to do it all as much as
+                    we’d hoped.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you.</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> And everyone needs somebody like James on your project because there’s never a
+                    problem, there are only solutions. So that has been very much our mode and it’s
+                    been great.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> That’s a great attitude.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> We’re definitely trying to sort of Carpe Diem now that we can actually go places
+                    but it would have been so much better if we could have spread this stuff out
+                    over three years.</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> But it would be true to say that we now conceive of ourselves as a digital
+                    project in a way we never did before Covid. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> No, sure. I see there’s an app for Port Places and I was wondering, could you
+                    maybe tell me a little bit about the app and what it does? </p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> It’s probably a useful, interesting DH story, because basically the app is … I
+                    suppose you’d call it like a reskin with some customizations of an app and an
+                    authoring tool that goes with it called Safarnama which in Sanskrit I think
+                    means the story of the journey and it’s from Lancaster University, from their DH
+                    people, from Deborah Sutton who is a Professor in Modern South Asian History and
+                    she created or worked to create with a sort of seed funding grant from the AHRC
+                    in the UK this app for telling stories in places like Mumbai and in Karachi,
+                    it’s complicated sort of multifaceted urban history is essentially where there
+                    is these blurred lines and basically everyday experience and interaction with
+                    lived history and the legacies of the place you find yourself now. And it’s got
+                    some useful features that we like which is that, firstly, it’s not like a web
+                    app so it’s not dependent on the Internet so you can pre download like a whole
+                    experience which is what sort of collection locations are called and just use
+                    your location services to navigate it so long as you’ve got the sort of map
+                    tiles loaded in and you’ve got the, you’ve got the thing downloaded all the
+                    images and all the media it works fine and that’s important for us because you
+                    really can’t guarantee a good Internet connection in a lot of our regions and on
+                    the ferry for that matter. </p>
+                <p>So it couldn’t be a web app and I know that’s a popular trend in app development
+                    is using web apps and if you’re in a city, if you like doing a doctor’s
+                    appointment or whatever, that’s all well and good but for this kind of thing,
+                    that wasn’t really suitable. It also is quite simple, it’s just blocks, blocks
+                    of text, images and then audio or video, very simple components that you can
+                    shuffle them around and make whatever you want from them. And it’s also very
+                    simple in the sense that anyone with a Google account can log into the authoring
+                    tool and make things. And lastly it kind of, it has QR codes so you can download
+                    them, but essentially, it also had this sense of being kind of, it has these
+                    trigger zones, like all around the locations that’s a bit like a Geo fence, but
+                    it doesn’t work when you crossover the circle, it tells you on your
+                    notifications if you’re close to somewhere, or you can just look at it yourself,
+                    you know wherever you are and those are all things that we attracted us to it. </p>
+                <p>So essentially Port Places is… we didn’t pay for a service from an existing
+                    provider, what we did essentially was invest in Safarnama because it needed a
+                    new version, it needed to be updated and it only had an android app didn’t have
+                    an iOS app and we basically invested essentially and we are continuing to invest
+                    in its long-term future by putting money into growing it and that’s allowed it
+                    then in turn to grow and do new things. There are new projects that’s come out
+                    of that that Deb Sutton is doing that’s about silk makers in India. And there’s
+                    other options for people to make apps from it in future, we archived all the
+                    codes on Zenodo, it’s open source, it was all hooked in from GitHub when the
+                    developer finished it. So basically, we tried to make it open data, but it’s
+                    also kind of it was simple in the ways that we wanted it to be and complicated
+                    in the ways we wanted it to be and we chose to invest in the development of the
+                    discipline and of the technology rather than paying for services and that saved
+                    us money, but it also, we have labour, but not as much money as some projects
+                    have for that kind of thing, so it was a good trade off really. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Was the app a consideration from the start? Did you go into the project knowing
+                    you wanted to add an app to it?</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> Yeah, it’s a deliverable so we have to, yeah. It was always a thing we had to do
+                    and it’s good in a way because it lets us, we have all these stories that we’ve
+                    done, but we have basically they form a big scrap book of material that we can
+                    cut little bits out of and arrange but we’ve also been able to offer some of our
+                    stakeholders a way to have an app that they wouldn’t otherwise have any access
+                    to. We’re refreshing a 15-year-old town trail that doesn’t function anymore as a
+                    book, but now it’s going to be app, you know. So basically, it’s giving us the
+                    chance to provide things that wouldn’t otherwise exist, but also to re
+                    articulate our material in a new format. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> There is another open-ended question here. What does a future digital edition
+                    look like to you? What would be the ideal scenario to have a digital edition
+                    in?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> Well, in the period of literature that I work on, particularly in the 19th
+                    century particularly in relation to Irish writing in English of that period we
+                    are gravely lacking proper editions of a number of collections and
+                    correspondence, so I see like a huge need for more. James will know that we’ve
+                    done some work with Máirín MacCarron as well and my colleague Cliona ÓGallchoir
+                    in relation to the Maria Edgeworth correspondence which is largely held in
+                    Oxford and in Dublin. So for me, a digital edition will have to answer the
+                    challenge of manuscript material that is largely locked up libraries with very
+                    limited forms of access. For proper scholarly access we just need an explanatory
+                    context and a framework. So I look at something like the Unlocking the Mary
+                    Hamilton Papers project in Manchester for instance, where they’ve used AI for
+                    handwriting recognition. I would hope that we’ll be able to find ways to start
+                    to make accessible in authoritative ways some of this material. JS: I think in
+                    addition to that what I would say is trying to firstly make it so that the task
+                    of getting as many editions into a machine-readable format as possible is
+                    separated from the scholarly work of interpreting them.</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> It’s so important, I agree.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> You’ve got your interoperable text that’s being properly marked up using all
+                    these tools we have now like great best practise stuff or TEI or whatever you
+                    choose to do or you’ve got all your named, you know your Geoparsing or your
+                    named objects or whatever, you’ve prepared it and that’s a whole field of
+                    scholarship, but then the freedom to create new interfaces and new ways of
+                    interrogating and navigating that text and those two things going on
+                    simultaneously, but be able to move back and forth. And I think there’s like,
+                    one thing I saw that excited me recently, I mean, we talked about machine
+                    learning and transcription but there’s tools now based on Transkribus that can
+                    transcribe or search within a digitised but untranscribed corpus. I saw one, a
+                    big corpus of mediaeval texts called HIMANIS, French manuscripts that have never
+                    been looked at by human eyes, they’ve been scanned and uploaded and really
+                    there’s been no interpretation of them. But being able to search through them
+                    and find words using Transkribus essentially without anyone having ever…
+                    basically, I think that automation of the transcription is, you know, there's
+                    always that thing about where they say, ‘oh, we can never do this without
+                    humans’ and I think it’s that thing about in DH of let machines do what machines
+                    can do well and let humans do what humans do and creative work, creating a
+                    textual environment where the automatic transcription can then be corrected and
+                    improved but then simultaneously that leaves the scholar to focus on the task of
+                    devising more interesting and intensive and hybridised and creative ways of
+                    interpreting the text. So, I think that's a thing, there’s like two parallel
+                    tracks of innovation, and I can really see that being something exciting. </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> And the other thing for me is that I want to see is a fuller reckoning with the
+                    spatial dimension of literary texts in the 21st digital edition, whatever that’s
+                    going to be. James and I have done some work using Recogito for some travels and
+                    tours to try and see what we can map in space as well in as well as in time.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> And then I guess Recogito would be a perfect example of a real quantum leap in
+                    just enabling anyone to do texture lamentation and to simultaneously spatially
+                    annotate and do different types of markup on a text. But then once you’ve got
+                    that ready, you then don’t have to keep reinventing the wheel, which I think is
+                    a fairly common feature of early DH is that every problem required a bespoke
+                    solution, but we’re really in an age now of burgeoning interoperability and I
+                    think that’s one of the fruits of it and that’s where I can see like a lot of
+                    the most exciting stuff happening. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you both and speaking of interoperability and research infrastructures,
+                    are there developments in those areas, especially in research infrastructure
+                    that you would like to see? </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> You know, I’d like to see a team of research technologists appointed to the
+                    College of Arts. Celtic Studies and Social Scienes at UCC and a significant
+                    scaling up of our ability to support projects, both in terms of people but also
+                    server space and proper support. </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> That’s fair.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> If I were to imagine a kind of like utopian scenario for digital scholarly
+                    editions and I think it’s not utopian, a better scenario, it would be one where
+                    anyone who has sourced the text can easily transcribe or OCR it without needing
+                    a huge amount of playback can easily get it into a machine readable format
+                    without with the aid of things like say, you know, like the innovations and ease
+                    of scanning and digitization, they can easily get hold of it, they can easily
+                    get it into machine readable text. But then they can use something like Recogito
+                    to interpret it and pars it and do whatever they need to but then they also have
+                    access to a range of of-the-shelf ways of displaying that text, you know, like
+                    beyond just sort of boiler plate TEI but they don’t then have to do an entire DH
+                    project to have a good way of displaying their texts so they’re not on their own
+                    any of those steps, there are existing tools that mainstreams the ability to do
+                    a critical edition and if you bring down the overheads that means more people
+                    could do it. </p>
+                <p>Like in Medieval studies there’s this joke that the only people who do critical
+                    editions anymore are retired people and monks because they don’t have to be paid
+                    for it and I’m not even joking if you look at the number of Medieval Latin
+                    translations it’s all monastics. Because part of their devotional activity and
+                    they’re all like very accomplished Latinists who, it’s not just that that
+                    they’re the equivalent, it’s part of their job, their lectio divina, is to
+                    actually engage with Scripture and commentaries on Scripture, so a lot of it is
+                    that but also retired scholars often go and say, well, there’s that’s edition
+                    that I’ve been meaning to do my whole career and now I’m just going to do it.
+                    But we shouldn’t be dependent on unpaid labour to do these things, I mean sure
+                    I’d welcome that but anyone who wants to make one and can benefit from the full
+                    sort of span of their experience because if you’re talking about footnotes and
+                    annotations, I mean, what better time to do an authoritative critical edition
+                    than right at the end of your career I mean but at the same time…</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> I don’t know James, that’s when your eyesight is terrible … (laughs)</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I mean, I guess like that it’s a thing that I think I can understand why it’s an
+                    activity that is particularly appealing at that stage but at the same time it
+                    shouldn’t be such a, I mean, we live in in a world of scarce academic resources
+                    and the more that technology can bring the barriers down, the more that people
+                    who want to do a critical edition can do one that that’s what I would wish for.
+                </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> It’s so difficult: to undertake any kind of scholarly editing at scale requires
+                    enormous resources and it does not happen outside of additional funding in the
+                    contemporary university. I go to the example of nineteenth-century Irish authors
+                    are not getting the same scholarly, critical, editorial, textual attention as
+                    say the Scottish writers who are their contemporaries because Scottish
+                    literature benefits from the AHRC research framework which acknowledges the
+                    value of large-scale editorial projects that can be funded simply on their own
+                    terms. We just don’t have funding schemes that recognise that kind of work at
+                    the moment. And once we add in questions of infrastructure and sustainability
+                    and longevity it adds to our challenges.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> And just allowing it to be more quick and agile, I was reading a book review the
+                    other day that kind of made me sad and obviously made the reviewer sad because
+                    there’s this well-established series of like critical editions of Medieval
+                    manuscripts in microfilm and microfiche format that is never going to be
+                    finished. They were like ‘this is the last edition of that’, they didn’t get to
+                    the end because it’s obsolete. And it’s like if those had been able to be done
+                    more quickly … I mean, they said actually talking about apparatus actually the
+                    quality of these editions is not in talking about microfiche it’s talking about
+                    the sheer like the quality of the annotations basically so they’re saying we
+                    should take all the annotations out of this series and add them to another text
+                    like a digital text and that would be amazing. But if it had been able to be
+                    done in another time, now or in future more quickly before microfiche became
+                    quasi obsolete, then that could have been done on the fly a lot more and so
+                    those amazing annotations and footnotes would still have survived but you know
+                    that…</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> You remind me that when I began my own little bit of scholarly editing which I
+                    did in the ‘90’s. So I was doing an edition of a novel and the novel went
+                    through different changes and the author made different changes and the printer
+                    made a few changes and so on and there were maybe three or four different
+                    editions I had to go through and it was simply a matter of reading line by line,
+                    you know, but one of my older colleagues then who is a bibliographer of some
+                    renown showed me a sort of a tool he had which was like a kind of a slide rule
+                    where you could, I forget what it was called, but you could put it down on the
+                    page and you know you could use it to scan across and you know I was younger, I
+                    had good eyesight I just used a ruler and I was perfectly fine without this but
+                    there was a sense of kind of, you know, that’s not, it’s not the same kind of
+                    technology, a ruler is not the same kind of technology as microfiche, but there
+                    isn’t, you know scholarly editing was never innocent of technology or never
+                    proceeding without an intimate relationship to the technology of its time kind
+                    of, so yeah. It just seems to be an interesting cultural story there as well.
+                </p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> There’s just another interesting example of like trying to rapidly survey
+                    something but then essentially like there’s the index of Middle English verse
+                    and it’s like entries, XML form entries about different manuscripts with
+                    Medieval verses and then it says like where it appears in the book and that’s
+                    all that’s in each entry but basically, you could imagine if that’s being done
+                    in different time, it could have the actual text as well and then interoperable
+                    text could allow you to, if that’s all you wanted to show like where does it
+                    appear and what’s the manuscript, you could have added that on top, but now you
+                    can’t go back because that was all that was collected, you know. You’re painted
+                    into a corner.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Now that we’ve been talking about the ideal futures and outlook and great
+                    wishes; Claire, you’re obviously a member of the Royal Irish Academy and do you
+                    feel that a body such as the Royal Irish Academy what role do they play in
+                    trying to bring this future about, of advancing the cause of editing and
+                    publishing in Ireland?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> I’m not sure I can have enough of a bird’s eye view of the Academy to say
+                    exactly, but there are obviously major projects for which it has responsibility
+                    including the Clare Island Survey or the Dictionary of Irish Biography. It
+                    sponsors particular knowledge exercises but sit also keeps an eye on scholarly
+                    and critical developments including questions of Open Science and Open Access.
+                </p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I guess one thing indirectly from that is that the Academy, as you said Claire
+                    it shelters, projects of the Academy.</p>
+            </sp>
+            <sp who="#CS">
+                <speaker>CS</speaker>
+                <p> Including DRI of course.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> That they are not themselves the Academy but benefit from it. And then I guess
+                    that’s one thing the Academy has always been is a safe harbour for long-term
+                    projects that wouldn’t survive in like the Historic Towns Atlas or like the
+                    Biographies but they need someone who’s gonna say yeah, we’re going to back this
+                    project forever because it’s of national importance but then you end up with
+                    things like the Atlas still uses CD-ROM stuck in the back of it because that’s
+                    part of the cost of rigour and long-term consistency is that sometimes you can’t
+                    move as quickly, but at the same time the DRI host is hosted by the Academy
+                    despite being its own organisation. </p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> I suppose if the question is anyone at a higher-level taking care of the fate of
+                    the scholarly edition right now, I think nobody is. I don’t think the British
+                    Academy is. Perhaps it will advance as part of Open Science.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> Yeah. And then, of course, the stake of losing digital material is massive, like
+                    there’s many CD-ROM based critical editions of Medieval manuscripts done in the
+                    ‘90’s that are no longer readable by modern computers. The format is completely
+                    obsolete. They were made with like Macromedia Director or something like that
+                    twenty years ago and they’re just completely unreadable. So, you actually then
+                    have to start doing digital archaeology to extract the data and hope it’s not
+                    partially corrupt, and add an entire level on top of that, assuming you even
+                    have the original, you know. So, I guess there’s also been like, like you were
+                    saying, Claire, I mean, the government just given that massive tranche of
+                    funding to North like the Irish Open research framework and that’s going to make
+                    a huge difference and really put Ireland up ahead, but that’s all about like
+                    infrastructure and collaboration and high-level solutions that doesn’t mean that
+                    anyone is taking any care of the edition specifically.</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> And it just goes back to resources again. With all the OA debates, we’re not
+                    talking about free publishing, we’re talking about publishing for where the
+                    payment model is changing. You can’t really advance a discussion about editions
+                    without tackling the question of how they’re going to be funded and I don’t
+                    think there’s a great appetite for that at the moment.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> But I guess then that makes it all the more important to create ways of bringing
+                    down those costs of creating this stuff so that it can be more democratised, so
+                    that editions can not only be created more easily but also then when they’re
+                    created in an easier open format, they can become open data that’s archived so
+                    by bringing down the levels that you need to actually make them in the first
+                    place, that could have a fairly profound affect.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> We’re coming to the end, is there anything else that you feel needs to be said
+                    that we’ve missed out on our discussions so far?</p>
+            </sp>
+            <sp who="#CC">
+                <speaker>CC</speaker>
+                <p> You’re making me think I’d like to get back to doing scholarly editing
+                    Michael.</p>
+            </sp>
+            <sp who="#JS">
+                <speaker>JS</speaker>
+                <p> I have one thing to say which I think is that there needs to be room for things
+                    that are just pure blue sky thinking, like with Deep Map editions that are just
+                    purely experimental and are frankly just kind of bizarre. Like it doesn’t matter
+                    if they’re bizarre and like unusual because they’re an experiment in a form and
+                    then they can be like, I guess the original of Deep Maps were like that, I mean
+                    it’s ok for something to be gonzo and a bit bizarre and eccentric if it achieves
+                    an artistic vision or a creative vision because then it can be used for other
+                    purposes. So I think my thing is that I wouldn’t want critical editions to
+                    become kind of utilitarian to workman, like not have that kind of spark, that
+                    ability for them to be just like, I mean you can take existing open data and do
+                    something strange with it but I think that you can’t cut out experimentation at
+                    different levels.</p>
+            </sp>
+            <sp who="#MK">
+                <speaker>MK</speaker>
+                <p> Thank you both.</p>
+            </sp>
+        </body>
+    </text>
+</TEI>

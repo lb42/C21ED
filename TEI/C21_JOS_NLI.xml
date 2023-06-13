@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>C21 Editions:  Della Keating,
+                    Joanna Finegan, Eoghan Ó Carragáin</title><title type="sub">Interview conducted by  James O’Sullivan
+                 on July 5th, 2022</title></titleStmt><publicationStmt><p>Unpublished working draft</p></publicationStmt><sourceDesc><bibl> O'Sullivan, J., M. Pidd, M. Kurzmeier, O. Murphy, and B. Wessels.
+                            (2023). <title>Interviews about the future of scholarly digital editions
+                                [Data files].</title> Available from <ref target="https://www.dhi.ac.uk/data/c21editions">https://www.dhi.ac.uk/data/c21editions</ref> (File C21_JOS_NLI.xml downloaded: 8th June 2023).</bibl></sourceDesc></fileDesc><encodingDesc><p>Retagged in TEI P5 from RTF (via soffice and docxtotei) </p></encodingDesc><revisionDesc><listChange><change><date>$today</date>Header added</change></listChange></revisionDesc></teiHeader><text><front><div><head>Interviewee bio</head><p><list><item>DELLA KEATING works at the National Library of Ireland, and previously worked in the National Archives of Ireland. She is an archivist. In 2011 she started the web archiving programme of the National Library, and piloted the collection of the historic Irish General Election web archive of 2011. She works as part of an interdisciplinary team whose strategic focus is to implement new approaches to collecting born digital content for Ireland. including donations from internationally acclaimed Irish author Marian Keyes, the photographic record of the 2015 Marriage Equality Referendum Campaign, Census of the Heart and the Waking the Feminists campaign. 
+          </item><item>JOANNA FINEGAN is a librarian and works in the Digital Collections Department of National Library of Ireland (NLI). She has previously worked in the Printed Books and Outreach Departments of the NLI and as curator of the Prints &amp; Drawings and Ephemera Department. She has also worked on various NLI projects with library catalogues and collections data.</item><item> EOGHAN Ó CARRAGÁIN is Head of
+                    Digital Collections at the National Library of Ireland, with 15 years’
+                    experience across policy development, digitisation, software development,
+                    digital preservation and FAIR Data Management.</item></list></p></div></front><body><sp who="#JOS"><speaker>JOS</speaker><p> When you think of digital
+                    editions and digital editing in the broadest sense, what tools, platforms or
+                    projects come to mind?</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                I suppose two things there James, I’ll just jump in very quickly, so, certainly when we considered this question first, we’re wondering if there is a terminology issue here because we’re not one hundred per cent clear what you mean by that and maybe you can bring us up to speed on that. And then, so, Kieran, who isn’t here today, what came to his mind was, you know, he looked at the whole Donald Trump’s tweets thing and how they were contextualised and everything. So, I suppose the term itself, certainly for myself and Joanna, we don’t necessarily know what it is but we have a suspicion that some of what we’re doing is kind of… could be called digital editions or digital editing or providing tools that can be digitally… or providing information that can be digitally edited but just not sure. So maybe could you clarify for us what you mean? </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                I’d be happy to clarify what I mean but I wonder if you could speak to your suspicions? I mean, the term digital edition, what do you take from that? </p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                Well, I suppose where we’re coming
+                    from and we actually met with Maria Butler last week, where we’re coming from is
+                    we see ourselves as providing, we call them collections, whether you call them
+                    data or whatever and Maria kind of pointed out that what people in her field
+                    need is this information in editable form. So, Marian Keyes drafts in editable
+                    form. So, like a working copy that researchers can work on and edit to their own
+                    purposes and run tools across to their own purposes. Now, I imagine that’s not
+                    quite what you mean, but that’s where we’re coming from. Joanna, is that
+                    fair?</p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Yes I think that is. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                Again, I think this is interesting to ask it in this way like clearly the term means different things to different people. I suppose I worked in University Libraries so maybe I have a different perspective on it as well so like but it’s in two ways, narrowly I probably think it would mean scholarly editions that are digital in nature so that is where my brain would go first, that’s probably because of the word editions in there, you know, that they are kind of annotated scholarly works, maybe of existing books that weren’t necessary digital but then I suppose increasingly more born digital type publications. I do associate it generally with scholarly, though, I suppose, I don’t know why that is, looking at it literally maybe that needn’t be the case but maybe that’s because of where I’ve come across the term. And then I suppose just think of various tools and platforms, so things I would have encountered working in the University Library things like GitBook, Authorea, all the CoCo Foundation stuff. So, they’re like trying to put together decent tools to allow more University Libraries and others to publish stuff, even thinking of the stuff like LaTeX or earlier versions or iterations of this and OJS or similar platforms of that sort that are out there and then newer stuff like Shiny Apps in R and Jupiter Notebooks that are more data focused but that people are using to publish either data or scholarly findings, but all digitally native of one form or another. And then maybe taking a step out beyond digital scholarship just obviously Wikipedia and associated sites, so, Wikimedia, DBpedia, the tools based on MediaWiki. And maybe one other thing, annotations as being a key in one form another, so whether that’s again just because of the scholarly edition where specifically it’s about glossing an existing text but also that that’s an inherent aspect of maybe digital, the fact that it’s not finished, I suppose, that it’s kind of iterative but also that it’s multiple people, not just the author, can annotate on it, so, the W3C Annotation specs and things like Hypothesis that are in the wild and out there and being used. And then maybe just things like EPUB, like formats, that’s a big element for us, well established preservable formats, so, things like that. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p> So I wonder if you could tell
+                    me a bit about the National Library’s digital initiatives?</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                Ok, Joanna will you cover web archiving? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Della is the person who started off
+                    our web archiving, James, in 2011 on a number of pilot projects, focusing on the
+                    General and Presidential Elections of that year and since that time we’ve been
+                    selectively archiving the Irish web and making those archived sites openly
+                    available through our platform. Our current provider is the Internet Archive so
+                    we use Archive-It. We have carried out a domain crawl in 2007 and 2017 as well
+                    in anticipation of legislation coming which would extend legal deposit to
+                    digital which it did in relation to books but not the web so those collections
+                    are not available yet but we’re working with our department to extend that
+                    legislation so that we will have an at scale capture and preservation of the
+                    national web space. That’s what we hope for in the future but those two things
+                    are not substitutes for one another, a domain crawl and openly available
+                    resources are two different things and they are filling two different gaps. So,
+                    at the moment we would probably have about 2,500 websites, many of those
+                    captured multiple times and about 50 terabytes in our selective Web Archive
+                    openly available, covering a variety of content, government, local, national
+                    collections and archived websites that would relate to our other collecting
+                    areas in the library, such as literature and photography. Politics and current
+                    events are also particular collection strengths. So that’s kind of an overall
+                    view and we do find that the Web Archive is somewhere where we hit a particular
+                    type of content which then subsequently comes to the attention of our digital
+                    pilots. That’s probably a good time for me to hand over there Della on that who
+                    can explain what I mean.</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                Yeah, so, as Joanna was saying very often the web is often considered to be documenting the now or collecting the now and it’s collecting it now, whereas we have a number of other initiatives on the way that would include like Marian Keyes for example and we call them Born Digital Pilot Projects and they’ve been underway since 2017 and they’re collecting unique digital content so its unpublished material and so it differs from the Web Archive in that sense but you could also view it as an extension of a lot of the work that went on or goes on in our Special Collections Department where they’re collecting the hard copy, the physical and this is the digital iteration of that. That’s certainly one possible interpretation of the pilots, and really, again, to talk in terms of gaps, it’s an attempt to fill the gap created by the fact that the world is now digital and writers and organisations and everyone is now operating in the digital space. So, we focused very specifically because we are a very small team, we had to pilot project this and we focused, so for example, we approached Marian Keyes and asked her would she be interested in being involved but we said from the outset that we’d only have the resources to cater to one book at the moment and that, as you know, turned out (and it was her selection) turned out to be The Mystery Mercy
+                    Close. And we also were involved with ‘Yes Equality’ and so that was very much building on relationships that had already been established in the Special Collections Department but it was the digital iteration of that. So that was the photographic collection and other bits and pieces around the Marriage Equality Referendum in 2015. And two other ones, the big one was ‘Waking the Feminists’, which is obviously kind of a grassroots organisation, which kind of sprung up very quickly in response to specific issues in Irish theatre around the commemoration and then kind of as far as they are concerned, came to a natural conclusion so that’s a very well bounded collection as well. And the final one is ‘Census of the Heart’ and that is quite close, you know, we consider it research data and that’s not necessarily something we would have been involved in so that’s a good example of where digital has kind of made us push our boundaries in terms of what we’ve collected and so that’s like a spreadsheet information survey that was conducted in 2016 alongside the Census. So, there’s those, kind of, four collections, we call them collections and the big thing is for us, previously our Special Collections Department is very organised on a format basis so photographs kind of get syphoned off one way and prints and drawings get syphoned off another way but obviously in the digital world and all of these collections are multi format and we have to treat them in that way so there’s a lot of kind of new departures brought about by collecting digital. So, the projects have been underway since 2017, they’re kind of bedevilled by rights issues, that’s taking an awful long time and an awful lot of time to sort but obviously the work that, for example, that we’re doing with Maria Butler, we realised very early on that rather than leaving access issues to the end of the kind of life cycle, we had to start looking at that immediately and working with the donors made us realise that as well because their first question was always ‘well, when is this going to be available?’ or ‘how is this going to be available?’ so that’s been really interesting as well. I mean obviously I could go on for hours but I’m not going to. The other area of work and I don’t know, Eoghan, do you want to speak to this? But we’ve a substantial digitisation, very mature programme of work there. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                Yeah, completely so, that’s more
+                    straight forward to some extent and so obviously digitized and analogue material
+                    of all formats. In NLI, this is generally a mix of visual and textual material,
+                    emphasis being I suppose public access and preservation of the digitised
+                    material but scope certainly to integrate with digital editions more, be that, I
+                    suppose, through making it available in a way that’s easily consumed by digital
+                    editions, so we do use IIIF and that kind of thing for digital material and
+                    there’s also potential for us or others to mine that material much more with
+                    Computer Vision API’s etc but we, well, we thought we’d do the IIIF element to
+                    encourage,… we probably don’t advertise it as much as we should partially
+                    because of rights issues so we’re kind of working through the rights issues
+                    ourselves and once we’ve done that in a more coherent way, we’d hope to, as
+                    other libraries do, advertise the fact that people can incorporate this stuff in
+                    a reasonably easy way into their digital edition. Another challenge there for us
+                    would be persistent citation below the object level as well so if someone is
+                    going to use some of our material in a digital edition, we’d want to be able to
+                    stand over the fact that digital edition wouldn’t break down the line if we
+                    change how we reference particular files within an object etc. That’s a bit down
+                    the line for us but I suppose the emphasis has been on us getting the material
+                    digitised and then access to the public as quickly as possible and obviously
+                    that we’re happy that it is preserved probably at this level, at the fixity
+                    level, that we’re sure of the content and it’s not changed in any way but again,
+                    lots of scope. Some technical issues, some rights and legal issues and the big
+                    issue across the board across all these strands is the resourcing issue to
+                    maximise the reuse of this digital content and that’s true across all strands, I
+                    think.</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Thank you. There are two things there I’d like to home in on. The first is the use of Archive-It and the Internet Archive, is that purely a resourcing decision? As a national institution, is there an issue with using a platform that is based in America and is a non-profit organisation as opposed to being publicly funded? Are you ever afraid that the Internet Archive, ironically, might go away? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Well, they are a service provider for us, James, so, you know, we actually have to tender for that service on a regular basis every four years or so. So that’s always in our mind that that’s a possibility. I suppose what we would say in terms of what we’re looking for is a service provider that would provide the technical infrastructure to allow us to capture what we want and display that or provide access to that in a way, one way is through Archive-it and also deliver a copy of that archived content to us so that we have a preserved copy which we can manage here on site. So, the preservation aspect of that is not the live web, as you know, that’s not it. The preservation piece for us is here, the copies that we get and that we manage, those archived websites in WARC file format are here but Archive-It or another provider allows us that technical infrastructure, which we just don’t have the resources to build. to archive the websites and also allows a way to display those archived websites to the users. That’s only one way through Archive-It but they have a new research service as well which is lowering the barrier to computational access for users to web archive data, it’s a follow on from Ian Milligan’s Archives Unleashed, it’s called ARCH and it’s just being developed now so that’s an area that we particularly interested in. Again, what Della was talking about there in terms of ability to analyse data, that’s a potential service offering and another access route for us that we are particularly interested in, but the preservation piece is us, is the copies that we get delivered and which the library manages. So, we hope they don’t go bust but we carry out the preservation piece, that’s our piece here. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Beyond the work you’re doing in
+                    terms of archiving and preservation, have you any thoughts on making editions,
+                    taking some of the collections that you have and adding that extra layer of
+                    access in terms of critical apparatus for the public?</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I think in general, maybe back to
+                    the resourcing thing is (a) I suppose it’s a hierarchy of, or kind of a process
+                    of, do we have it? Are we collecting it? Is it safe? Is it preserved? And then,
+                    can we provide access to it such that others are enabled to reuse it as much as
+                    possible? And that is the question, I suppose, what is the minimal ways to make
+                    it available given (a) the resourcing constraints that we have but also what our
+                    role is. I don’t think the further reusing creation of the material other than
+                    maybe specifically in our own ELP Educational Learning and Programming sphere
+                    where we reuse our collections and collaborate with others to reuse our
+                    collections, that’s an element of what we do but I think a lot of it is making
+                    sure we make the content available maximally, I suppose, so that others are
+                    going to reuse it and do other things with it I suppose. Is that fair to say
+                    Della and Joanna, like it’s part of what we do but it is as much about enabling
+                    others to use the collections and again the constraints there can be anything
+                    from technical constraints, to IPR constrains, to internal resourcing
+                    constraints but certainly that’s the aim, that it’s available for others to
+                    reuse.</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                We’re serving a very broad community
+                    as well which is brilliant but also presents challenges. We really like, Joanna
+                    and myself anyway, Eoghan, I don’t know, you probably know, you know the
+                    National Archives in the UK have developed this kind of model of access where
+                    they divided it up into three different types of users. So you had your kind of
+                    common or garden entry level user and then you had a group of people who wanted
+                    to become more expert and upskill and then you had the really skilled users and
+                    the National Archives in the UK would see themselves as catering to all three
+                    groups and I think we sort of would as well. Ideally.</p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Yes.</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                What did you have in mind, James, were you talking about access or were you talking about creation of new editions by the library itself or both? </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                I suppose I was thinking of the creation of new editions by the library. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                So again, we would have done publication in the past, you know, and exhibitions in the past and I suppose contributed materials to stuff so like all that continues in the digital world but I suppose it was always a smaller part of maybe the provision of access more generally, you know. To the extent that we did that in the past, we continue to do it and all the challenges that come along with digital would apply but it would never have been a core aspect of what we do, NLI as a publisher would never have been a core part of its remit, if you know what I mean. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p> Do you recognise a distinct
+                    disconnect between the work of collecting, curating, and publishing?</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I do but I’ll let the others speak first. </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                I suppose preservation is the key piece because that’s access for the future and that’s what we are about, whoever the user is, whether it’s the digitally curious or somebody with advanced analysis skills, I guess. </p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                That’s our priority and that’s where we see our expertise and we would view others as having the expertise to leverage what we can deliver in our reading rooms or our virtual reading rooms. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                Again, it’s back to what a digital
+                    edition is, some of say our archival entries for collections can be quite
+                    curated and quite detailed and rich in information but I suppose the purpose of
+                    those would be to facilitate I suppose an intellectual control over the material
+                    for ourselves and enough information for others to understand what it is and how
+                    bits of it relate to one another but that kind of next bit up where you’re then
+                    taking elements from all different connections and I suppose recombining them
+                    for a particular purpose, again, we would do that to some extent where we would
+                    have, say, highlighted our own collections, for example, in one way or another
+                    but I suppose we couldn’t possibly think of all the possible ways our
+                    collections could be used. So then it’s more about how we ‘publish’ them in such
+                    a way that others can then have the information they need and the access that
+                    they need to then reuse it in whatever wonderful ways they want to type
+                    thing.</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Joanna?</p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Yes, this could be a total tangent
+                    now in relation to that but I was at a talk last week by somebody who used the
+                    NLI published collections created around the time of the Civil War and the
+                    subject of her research is to look at those, they were not high literature, they
+                    were partially popular fiction preserved in the library, and somebody has come
+                    along and looked at those in a very fresh way in 100 years’ time and you know
+                    when you’re talking about digital scholarship and digital scholarly editions,
+                    it’s those questions and that ability to interpret contemporary works and look
+                    at them in a fresh way which is dependent on digital collecting and digital
+                    preservation. I suppose that comes back to what our role is. You know our
+                    predecessors did their job brilliantly in that because they collected and
+                    preserved that content, those publications are available for people to come
+                    along in 100 years’ time and reuse them and use them in different ways. I think
+                    the preservation thing you can really see that played out in the print format so
+                    often I suppose and if you look at what people are publishing now I guess it
+                    would be reasonable to hope that whatever digital content we’ve collected and
+                    preserved would serve the same function and provide the content for the scholars
+                    in the future. It’s probably stating the obvious.</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                I wouldn’t say it’s stating the obvious, not at all. You mentioned earlier this idea of selective archiving, and obviously you can’t archive everything. How do you decide what to archive? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Collection Development Policy. That would guide us. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Who ultimately makes the decision around archiving one website over another? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Oh, well there are various… we have an overall collection development policy but then there are particular areas within, I suppose, the Irish web space where we would have collection strengths that we would seek to build on and indeed collection gaps as well. I think contemporary political collections in a digital format possibly was a gap until the web archive started and the initiative there was the Presidential and the General Election of 2011, Della, that you started it so that was an opportunity there to fill a gap. Obviously, we want to connect with, you know, literature and photography, those are particular areas in our existing collection strengths as well and what’s going on in the wider world, I mean, you know, obviously Covid and issues like that as well. </p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                And you do reach out to experts in the field as well Joanna, you know, at times of elections and everything, there would be contact with… particularly with people in universities, wouldn’t it? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Yes, and then we also work with
+                    project partners as well which is something that we would like to expand but
+                    that’s resource intensive as well. So, we would work with ITMA the Irish
+                    Traditional Music Archive and the design community with The 100 Archive and the
+                    Irish Community Archive Network (iCAN)as well. We have certainly other areas and
+                    other groups that we would love to reach out to but obviously that’s a resource
+                    issue as well. And also just to say as well in terms of our collection
+                    development policy, its strengths in relation to diversity and collecting a
+                    representative sample of Irish society which is obviously a challenge, again, in
+                    itself which domain crawling will help with and that is a mission across all our
+                    collecting areas, as well. Sorry Eoghan…</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                At a very high-level James, as the National Library that is our broad kind of guiding star that’s it’s in or about Ireland or people from Ireland or with an Irish connection whereas say a university library maybe has a much wider collection remit in terms of the disciplines studied by its users so it is down to the core remit of the library. So in a way, we have an extremely broad remit but it’s also with those caveats around it, we wouldn’t be collecting necessarily research data by researchers in another country that has nothing, no relationship to Ireland but obviously if it is about Ireland, we would, if that kind of makes sense. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                You mentioned that the digital initiative at the National Library is relatively new, when was it established? </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I suppose it’s which of those
+                    strands, so digitization has been there in some form for about 20 years but
+                    yeah, more concertedly for over a decade and then Della and Joanna, do you want
+                    to speak to those…</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                The Web Archive stated in 2011 and the born digital pilot was 2017. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>	Some of you were heavily involved in setting that up, are there any key decisions relating to that process which spring to mind? Any lessons that you learned, anything you’d do differently if you were to set it all up again now from scratch? </p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                Well, I suppose the three of us
+                    would be well able to speak to this, but I’ll maybe just kick off. In the
+                    context, so the pilots really highlighted a kind of, sorry, so the Web archive
+                    and digitisation are both relatively mature workflows and, as Joanna said,
+                    really the key thing for preservation because if this stuff isn’t preserved,
+                    then nobody can do anything with it if it’s not there. And then the pilots I
+                    suppose brought in a whole different set of content and really forced us to kind
+                    of maybe take a step back and certainly with Eoghan’s arrival late last year,
+                    so, the first pilot we kind of seriously undertook was a photographic one and we
+                    did that, that decision was made because it mirrored very much the digitisation
+                    workflow content which was based around images and photographic, mainly around
+                    photographic material. So that was done deliberately and then before we kind of
+                    concluded that process around the photographic collection, we decided to take a
+                    step back and re-examine our data model and re-examine our assumptions and how
+                    best to proceed because of the challenges thrown up by moving digitisation into
+                    new areas and the new areas that the born digital pilots are going to move us
+                    into in terms of looking at collections that contain 6,7,8,9, 10 different
+                    formats. So Eoghan, I don’t know, do you want to speak more to that? More about
+                    the whole modelling thing?</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                Re data modelling, I think you’ve
+                    covered it pretty well there. It is, I think that general point though: the
+                    library has been dealing with archival materials, mixed formats for a long time
+                    and I think the transition to digital there is challenging. Probably a lot of it
+                    is the same and Della, you speak to this very well in relation to the
+                    acquisition, the appraisal, you know, the initial evaluation of what needs to be
+                    done with the collection. But I suppose the timeframes are bit tighter like in a
+                    way some analogue formats, you can bring them so far in the processing,
+                    confident that you know they are where they need to be, whereas I think the
+                    challenge for us is maybe the diversity of formats that exist digitally and
+                    their relative life span or potential, the potential for them to become obsolete
+                    or for us not to be able to do what we need to do with them [down the road]. So,
+                    whether that’s about engaging where possible with the donor to get whatever
+                    additional information we need or indeed working with the donor, perhaps in a
+                    more collaborative way than would have been necessary for analogue materials but
+                    also what immediate actions does the National Library need to take just to get
+                    up to that point of we’re happy that this material is preserved. I think Kieran
+                    was here he’d say more - I like his definition of digital preservation. It’s not
+                    just about keeping the stuff the way it is, it’s about preserved or continued
+                    access to that material. So, I suppose continued reuse of that material so you
+                    could have the file uncorrupted, carry out fixity checks all the time but if you
+                    didn't take the actions at the point where you could to make sure that material
+                    can be reused and reopened at a later point, you may as well not have the file
+                    to some extent. And there are all sorts of technical solutions around this as
+                    well but I think that element that the point after acquisition or kind of
+                    pre-ingest into maybe your permanent store, that’s a critical and very time
+                    sensitive aspect which then puts a lot of challenges on us given (a) it’s
+                    relatively new in terms of workflow despite the overall relationship or overlaps
+                    with how things worked in the analogue world and then again very, very small
+                    team working on this relative to maybe the size of the National Library and it’s
+                    worth saying that the National Library is extremely small as National Libraries
+                    go, we’re a third or a quarter of a peer institutions in Europe in terms of raw
+                    numbers of staff. Does that answer your question?</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Thank you. On that subject, resourcing is a thing that’s coming up frequently. Reflecting on the wider field of digital collecting, digital preservation, editions, resources, publishing, and so on, what are we missing, what does the field need? If I gave you a magic wand scenario, what, other than more money, is it that you would want? </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                But not money. Is that right James?
+                    [Laughs]</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                No, not money. [Laughs]</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                I was just gonna say, for me, the point is crucial that for everybody to realise that if it’s not preserved, that there will be no access and I know that sounds a bit stupid because it sounds a bit obvious but it’s what does preserved mean. Preserved does not mean if it’s out on the web, it’s preserved, you know, preserved is that very intense, expensive, series of actions that it takes and work flows that it takes to keep something preserved so that we can continue to provide access and that realisation on that, there’s an education piece there and I don’t mean it in a bossy way or a superior kind of way but there is an education piece there because people certainly starting off on the web archiving, people didn’t realise that if you put something on the web, it’s published. And people don’t join the dots around that and equally just because you put something on Twitter or just because you have something on Flicker, does not mean it’s preserved for persistent longer-term access. Sorry, that was all I was going to say. Joanna… </p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                I think that’s absolutely key is the education piece there. I think that’s absolutely essential because the format of transmission is changed. If you think about how much we take the stability of the paper record for granted, right from when we’re very small children right the way up and that has totally changed. I mean, it changed decades ago but we’re seeing it now in terms of organisations or people involved in preserving the record and wanting to ensure access to it. So, I don’t know whether that’s something that you build into your digital literacy programme in primary school. I was just thinking about how you create that level of awareness of the impermanence of the digital format and the need to address it in different ways at a high level, you know, I guess we’d also be thinking about the people who would fund us and how to get them to understand that. I’m not quite sure, I think you might need a magic wand. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                Just on that, so, just thinking about it, a lot of the good and bad comes from the web effectively, so the richness, the ability to collaborate, the continual publication, all the things we love about the digital, the web but it’s an inherently ephemeral and silently ephemeral platform. So a URL changes all the time and were it not for efforts to archive it, you’d have no way to know that. It’s entirely silent and it’s even by design [with content negotiation] so when you request something on the web, you can request, you can explicitly pass the different parameters to get it in a different format. So that effectively a lot of time you are talking about a single point failure for publications in that sense whereas contrast that to even a small run of 100 books, 50 of which went libraries, there’s 50 copies and 50 points of failures so it’s quite dramatically different. I think education is good but the reality is that people aren’t going to change that pattern so then you come up with effectively workarounds like web archiving and I think Brewster Kahle and others would say that that, that it’s effectively a workaround for the fact that this publication platform doesn’t have redundancy in it really. So you can’t educate the whole world, but I think there’s an interesting space around the kind of digital editions where that’s taken to mean the scholarly community because there’s a very good understanding already about the importance of the scholarly record, there’s a very good understanding of that role that libraries and archives have played, including the archives where it was always unique, there was only ever one copy of those things. And there’s also when you couple that with kind of an awareness around things like Open Access but also increasingly data in terms of the need for there to be integrity around the material that’s published, I think there is a scope there -for those communities to engage. You have things like DOI, for example, that is a really pragmatic, publisher-driven response to the fact that the web is very ephemeral and you know people still don’t necessarily get it all time, they’ll use the URL rather than DOI but at least there is an awareness in that community of things like ‘I need to cite it in a certain way or it won’t be there when I follow the citation’. So effectively this is more about a kind of co-creation or education or kind of, I suppose, thinking of things as a pipeline from creation to scholarly record, there’s a lot of scope there. And I think that like, GDPR talks about preservation, ‘privacy by design’, and I think one of the challenges is ‘preservation by design’. In doing an edition as a scholar or as a university publisher or even indeed a scholarly publisher that you have that additional responsibility that maybe somebody publishing on the web at large doesn’t have to think about, well, how does this thing that is potentially an amalgam of rich media spread across hundreds of servers, how is that thing going to be preserved? So, in a way, getting back to that point, we do what we can pragmatically with web archiving but it’s kind of reverse engineering and working around the limitations of the publication platform and that will always be the case for the vast majority of the web but for particular aspects and particular communities, I think we could do better. I think this digital scholarly edition is a very clear case where those considerations are already being thought about and have been thought about for decades by that community. So, yeah, and that question of redundancy I think is very interesting as well so even if you publish it with all that in mind online, you know, “lots of copies, keep stuff safe” is good and getting back to a point where libraries are nodes in a network which have inherent redundancy because all of them go away, technology goes away, the organisations go away, what you said about the  about internet archive earlier on was really to the point. So how do we create these things in such a way that they can be genuinely around in decades or in measurements of tens and hundreds of years? </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Have you thought about some of the solutions to this? If I gave you a team of programmers, what would you have them do for you? </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I’ve thought about this a little bit
+                    so, I suppose, there’s two elements. I suppose, portability and minimising,
+                    yeah, so I suppose, effectively, you obviously want richness and complexity but
+                    I suppose building it in a way that effectively minimises the complexity of the
+                    technology stack around that. So, if someone has to run a web server, if someone
+                    has to patch a web server, that’s a big problem, it limits the application,
+                    unless there’s an organisation who is willing to maintain it, it limits it to a
+                    life span of five or ten years basically. So straight away think about
+                    technologies that are portable and ideally, potentially even offline so I think
+                    there’s a whole interesting space around that like building with offline first
+                    mentality. There are good technologies in this space, as you know, things have
+                    gone back this way because earlier the web went from raw text files on web
+                    servers to complex web applications and have gone back to basically JavaScript
+                    applications with plain text formats and digital assets and with web assembly
+                    and other technologies that’s going to become more possible so I think that
+                    portability of technologies… Now, that’s kind of anti-web in many mays because
+                    the web is all about linking to stuff all over the web but again there’s good
+                    efforts about how you draw lines around a resource and say this is a collection
+                    of assets that could be taken and potentially taken offline. So, you know, that
+                    kind of mentality with things like Git there’s a whole mix of technologies that
+                    fit together potentially in this way but nobody has quite brought it to that
+                    point of bringing them together. And the other element I think is critical is
+                    citation, so again, most ways we cite digital editions is through URL’s that
+                    will break so either things like DOI but also there is a very interesting
+                    potential around decentralised web stuff there again that’s kind of happening.
+                    Not the NFT crypto hype but just the set of technologies that are explicitly
+                    trying to deal with that limitation of the web that its location addressed as
+                    opposed to content addressed and that you can’t persistently cite the content
+                    and you can’t easily replicate the content and again the Internet Archive
+                    personnel are actually pioneers on this, they actually want to get away from the
+                    point where they’re working backwards and reverse-engineering the web, they want
+                    a web where it’s natively preservable and that they just have to replicate the
+                    content but that’s baked into how the web works as opposed to having to come at
+                    it the other way round and work around the limitations of the web. So, I think
+                    the time is very interesting for this, there’s a whole host of technologies that
+                    allow you to do this kind of stuff but I still think it’s not quite there and
+                    certainly not in practice maybe or not at scale.</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>	What does the library of the future look like? </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                No hard questions, James! [Laughs]
+                    Do you want to speak to that Joanna?</p></sp><sp who="#JF"><speaker>JF</speaker><p>
+                Which library, I suppose, is what I would come back at that because there’s such a variety there. Obviously, we’re very much in the academic sphere in this conversation and I guess the NLI has a foot in both camps in relation to the publicly accessible content and the research content as well, although we don’t lend, but we straddle that, as Della has said. And then there’s the Public Library Network which serves a huge community of people, the Specialist Libraries serving, health, government, all of those. So, I suppose, I wanted to dig in there and say what kind of library do you mean, libraries like National Libraries or those involved in higher education with a research and preservation element to it ? </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                Do you think the future of these
+                    different kinds of institutions looks different? Say if we compare a large
+                    national institute like the NLI to smaller academic libraries and even very
+                    local public libraries, what does the future look like for each of those
+                    institutions look like, is different?</p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I think broadly speaking the future
+                    library is not dissimilar from the library of the past. I think when you think
+                    about it in terms of even service provision like I think you will need people
+                    working in this space regardless of what the technology changes are so whether
+                    that’s about collecting unique material or preserving it and the expertise that
+                    goes around with that but also providing services for accessing that material so
+                    connecting the user to the material through that space, again physical or
+                    virtual. I think there will always be a requirement of the user that they can go
+                    to a place, again, even physically or virtually where they encounter people who
+                    will allow them to navigate that space. Again, I think that will change
+                    depending on the technologies, so, you know, interestingly, you see this a lot
+                    in university libraries where the collection itself is actually subscriptions so
+                    they’re not managing the collection, it’s third party but that collection and
+                    interpretation and navigation of the collection is perhaps a greater element of
+                    what they do and maybe an increasing emphasis in those universities on unique
+                    and distinct collections. What is unique and special to their local environment
+                    that they maybe have a particular responsibility to preserve because nobody else
+                    is preserving it. I think an interesting one both for university libraries and
+                    for ourselves is, we touched on it earlier, that area of co-creation so where do
+                    we cease to be just taking in the output of whatever community publishes and is
+                    there grounds for, you know, involvement of the information professionals and
+                    people who have an expertise around maybe the preservation and the long-term
+                    access of content to engage with the creators of that content more directly. So
+                    you see this a lot in relation to data management access, Data Stewards are
+                    typically found in libraries for example. Or again, just in this conversation
+                    and our discussions around web archiving: we have those kinds of discussions
+                    with publishers whether they’re published with government organisations or
+                    whatever, they rely on our expertise in that area and come to us in terms of how
+                    can they publish better and I think in the digital archiving too that’s a unique
+                    element of it that maybe wasn’t as strong in the analogue world where there’s a
+                    degree of engaging with the donor because of that critical window of we have
+                    access to this information that might be the critical bit of a context that will
+                    allow us to preserve the stuff in to the long term and potentially in digital
+                    editions as well, you know, that people creating digital editions either have
+                    people of that expertise or people from a library environment on their team or
+                    at least have an explicit… as it becomes more standardised that there might be
+                    more formal relationships between publishers and library-like organisations to
+                    preserve. You already have that - all the major publishing already have
+                    mechanisms for doing long-term, deep archives whether that’s things like
+                    commercial, like Portico but also there’s the Keepers Registry which is
+                    effectively a group of libraries and like-minded organisations who seek to
+                    preserve that content if that publisher goes away. So I could be wrong there now
+                    but I think maybe that idea of that hard line of the thing is published and then
+                    it’s taken in by a library, I think that’s blurred a lot and will continue to
+                    blur I think. Space will obviously be key, service will always be key and then
+                    the expertise around I suppose, I’d say librarians always use the best
+                    technology to do this stuff and it’s just a case of what does the implications
+                    of the new technology mean for the core remit to collect, preserve and make
+                    accessible to as many people as possible this content. So, the same but
+                    different.</p></sp><sp who="#JOS"><speaker>JOS</speaker><p>	Is the future grim? We talk about baking preservation into the systems and platforms that we’re using, and people have recognised this for so long yet we seem to be getting further and further away from that with an increasing number of platforms and formats that are increasingly dissonant in terms of their interoperability. I don’t think interoperability is something that we the big platforms that dominate the big cultural conversation are working towards. We’ve even seen platforms designed for ephemerality. Does that all speak to a future in which a lot of the material that makes up important socio-cultural histories and contexts is just lost to us or am I being too pessimistic? </p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                It does sound very grim. </p></sp><sp who="#JOS"><speaker>JOS</speaker><p>
+                It does, doesn’t it?
+                [laughs]</p></sp><sp who="#DK"><speaker>DK</speaker><p>
+                You’re gonna talk us out of a job. I mean, partially, I would see the role of national libraries or cultural institution of filling that gap and that awareness role. We have to accept that we can’t capture everything, that’s the other thing. In the past, I think libraries probably thought they could but we have to accept that we can’t and I think what we are trying to capture, there’s a much greater awareness now of voices and stories that aren’t heard and gaps that need to be filled rather necessarily than just looking at what’s there, you’re also looking at what’s not there. That’s conscious now, its explicit. Yeah. I don’t know. I don’t like to think of it in those grim terms anyway. </p></sp><sp who="#EOC"><speaker>EOC</speaker><p>
+                I think ephemerality was always a big part of it. I think you’re right, it’s easier to break it down. Maybe the published strand was always kind of finite, you could define what it was to some extent and hope, as Della said, aspirationally to collect it all, at least within your collecting remit but then the grey literature was always extremely ephemeral and even for printed published material so it’s always only been an incomplete record of that anyway and I’m quite ok with that I think particularly the nature of that material is it’s only by chance that it survives to some extent in there as well and that’s certainly the case then for archival or unique material as well, like obviously we should minimise that but there’s always been a degree of luck to some extent there so I wouldn’t worry about that per se. I’d be less worried about interoperability too from a technical point of view, I think it’s probably more regulatory effectively and like really about the ownership. I do think that, to take that example, there’s a difference between a publisher having copyright in something but for multiple copies of that thing to be distributed all over the world in terms of access and of there being a chance of the thing surviving, versus a publisher having copyright on the material and having the only copy of it and enforcing effectively restricted access to that material and potentially becoming a single point of failure for the likelihood of that material to continue to exist. So, I think there is kind of a happy path and a sad path and I think you see that certainly in the bigger tech platforms where a lot of that is bound up with both in terms of their ownership of the data to some extent but also that is that they are the only place where that content is. So that’s a real risk but you see good regulation contrary to that, I think we’re lucky to live in Europe rather than other parts of the world. I wouldn’t be entirely negative, I think there is huge potential and positivity in terms of technology and in terms of the underlying attitude of technologists that lead to the creation of the web in the first place. The risk is more in terms of societal awareness and having sufficient provisions on the regulatory or legislative side to mitigate the risk of loss of culturally important information. Again I think national libraries definitely have a role there, even leaving the IPR aspect aside but just at the level of how ephemeral this is. Della and Joanna have done huge work there in terms of making that story heard to regulators, to politicians but also to the public at large - don’t take it for granted that this stuff is going to be here and you need to resource organisations like ours, if you want this stuff to be around and yeah, that’s a fascinating element to the selection bias of librarians, even in terms of what Della touched on as well : what is it that we should collect. So where the technology gives us scope to collect much more comprehensively, like if you think of the web archive, if we are given a legislative mandate to that in a way we don’t have to be as selective as we would otherwise need to be, we can crawl technologically a much wider tranche of material. However then we may not be able to in some of those platforms where all the content is behind paywalls, we will just not capture a huge amount of Irish related material that’s in ‘the Metaverse’ or even a Facebook or whatever. So yeah, cause for optimism, cause for worry and cause to live in a well-regulated society.</p></sp></body></text></TEI>
