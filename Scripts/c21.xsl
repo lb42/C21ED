@@ -3,9 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
     
-<!-- caution: this doesnt cope well with multiple interviewees -->
+<!-- caution: this doesnt cope well with multiple interviewees : it also ignores highlighting within a p -->
  
- <!-- we take the outtput from docxtotei, rewrite its teiHeader, make unwarranted assumptions about
+ <!-- Take the outtput from docxtotei, rewrite its teiHeader, make unwarranted assumptions about
      the content, and generate an invalid tei doc with speaker tags in it but no sp s -->
     
     <xsl:template match="/">
@@ -18,7 +18,10 @@
             <xsl:value-of select="tokenize(base-uri(.), '/')[last()]"/>
         </xsl:variable>
 
-
+        <xsl:variable name="sourceFile">
+            <xsl:value-of select="concat(substring-before($inputFile,'.xml'),'.rtf')"/>
+        </xsl:variable>
+        
         <xsl:variable name="hiString">
             <xsl:value-of select="/TEI/text/body/p[1]"/>
         </xsl:variable>
@@ -44,7 +47,7 @@
                             /> on <xsl:value-of select="$interviewDate"/></title>
                     </titleStmt>
                     <publicationStmt>
-                        <p>Unpublished working draft</p>
+                        <p>Unpublished working draft derived from materials released under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/legalcode">CC-BY-4.0</ref> licence</p>
                     </publicationStmt>
                     <sourceDesc>
                         <bibl> O'Sullivan, J., M. Pidd, M. Kurzmeier, O. Murphy, and B. Wessels.
@@ -52,7 +55,7 @@
                                 [Data files].</title> Available from <ref
                                 target="https://www.dhi.ac.uk/data/c21editions"
                                 >https://www.dhi.ac.uk/data/c21editions</ref> (File <xsl:value-of
-                                select="$inputFile"/> downloaded: 8th June 2023).</bibl>
+                                select="$sourceFile"/> downloaded: 8th June 2023).</bibl>
                     </sourceDesc>
                 </fileDesc>
                 <encodingDesc>
@@ -69,7 +72,7 @@
                     <div>
                         <head>Interviewee bio</head>
                         <p>
-                            <xsl:value-of select="/TEI/text/body/p[2]"/>
+                            <xsl:copy-of select="/TEI/text/body/p[2]"/>
                         </p>
                     </div>
                 </front>
@@ -79,6 +82,8 @@
             </text>
         </TEI>
     </xsl:template>
+    
+   
 
     <xsl:template match="p">
         <xsl:variable name="pString">
