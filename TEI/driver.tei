@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>xml/C21 Editions Corpus</title>
+             </titleStmt>
+            <publicationStmt>
+                <p>Unpublished first draft </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<xi:include href="xml/C21_JOS_AA.xml"/>
+<xi:include href="xml/C21_JOS_AB.xml"/>
+<xi:include href="xml/C21_JOS_AC.xml"/>
+<xi:include href="xml/C21_JOS_AG.xml"/>
+<xi:include href="xml/C21_JOS_AK.xml"/>
+<xi:include href="xml/C21_JOS_AMS.xml"/>
+<xi:include href="xml/C21_JOS_ANC.xml"/>
+<xi:include href="xml/C21_JOS_AP.xml"/>
+<xi:include href="xml/C21_JOS_BB.xml"/>
+<xi:include href="xml/C21_JOS_BS.xml"/>
+<xi:include href="xml/C21_JOS_CL.xml"/>
+<xi:include href="xml/C21_JOS_CO.xml"/>
+<xi:include href="xml/C21_JOS_DG.xml"/>
+<xi:include href="xml/C21_JOS_EB.xml"/>
+<xi:include href="xml/C21_JOS_ER.xml"/>
+<xi:include href="xml/C21_JOS_GC.xml"/>
+<xi:include href="xml/C21_JOS_GR.xml"/>
+<xi:include href="xml/C21_JOS_IM.xml"/>
+<xi:include href="xml/C21_JOS_JC.xml"/>
+<xi:include href="xml/C21_JOS_JK.xml"/>
+<xi:include href="xml/C21_JOS_JT_LR.xml"/>
+<xi:include href="xml/C21_JOS_JVZ.xml"/>
+<xi:include href="xml/C21_JOS_KO.xml"/>
+<xi:include href="xml/C21_JOS_KR.xml"/>
+<xi:include href="xml/C21_JOS_MG.xml"/>
+<xi:include href="xml/C21_JOS_MPE.xml"/>
+<xi:include href="xml/C21_JOS_MSP.xml"/>
+<xi:include href="xml/C21_JOS_DK_JOF_EOC.xml"/><!-- was NLI -->
+<xi:include href="xml/C21_JOS_RR.xml"/>
+<xi:include href="xml/C21_JOS_SG.xml"/>
+<xi:include href="xml/C21_JOS_SM.xml"/>
+<xi:include href="xml/C21_JOS_SR.xml"/>
+<xi:include href="xml/C21_MK_CC_JS.xml"/>
+<xi:include href="xml/C21_MK_DV.xml"/>
+<xi:include href="xml/C21_MK_EP.xml"/>
+<xi:include href="xml/C21_MK_ES.xml"/>
+<xi:include href="xml/C21_MK_FF.xml"/>
+<xi:include href="xml/C21_MK_JF.xml"/>
+<xi:include href="xml/C21_MK_LB.xml"/>
+<xi:include href="xml/C21_MK_LC.xml"/>
+<xi:include href="xml/C21_MK_MC_JT.xml"/>
+<xi:include href="xml/C21_MK_MLC.xml"/>
+<xi:include href="xml/C21_MK_PF.xml"/>
+<xi:include href="xml/C21_MK_PR.xml"/>
+<xi:include href="xml/C21_MK_RR.xml"/>
+<xi:include href="xml/C21_MK_TH.xml"/>
+</TEI>
