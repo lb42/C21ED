@@ -10,7 +10,7 @@ Download and unzip the archive provided at the DHI site. Open each RTF file usin
 
 ## c21.xsl
 
-Discard most of the TEI Header generated in the preceding step, and add some useful data extracted from known places in the content of the document. Move the brief bios temporarily to a `<front>` element. Identify all speaker prefixes and tag them as such, even though this makes the document invalid. Coping with multiple interviewees was a little tricky: I cheated by introducing a <list> in the two or three cases where there was more than one brief bio in a documenty. I also ought to go back and do something about the italicized and square bracketted segments in the original some time.
+Discard most of the TEI Header generated in the preceding step, and add some useful data extracted from known places in the content of the document. Move the brief bios temporarily to a `<front>` element. Identify all speaker prefixes and tag them as such, even though this makes the document invalid. Coping with multiple interviewees was a little tricky: I cheated by introducing a `<list>` in the two or three cases where there was more than one brief bio in a documenty. I also ought to go back and do something about the italicized and square bracketted segments in the original some time.
 
 ## c21x.xsl   
 
